@@ -1,4 +1,8 @@
 # inaSpeechSegmenter
+[![Python](https://img.shields.io/pypi/pyversions/inaSpeechSegmenter.svg?style=plastic)](https://badge.fury.io/py/inaSpeechSegmenter)
+[![Python 3.6 to 3.10 unit tests](https://github.com/ina-foss/inaSpeechSegmenter/actions/workflows/python-package.yml/badge.svg)](https://github.com/ina-foss/inaSpeechSegmenter/actions/workflows/python-package.yml)
+[![PyPI version](https://badge.fury.io/py/inaSpeechSegmenter.svg)](https://badge.fury.io/py/inaSpeechSegmenter)
+[![Docker Pulls](https://img.shields.io/docker/pulls/inafoss/inaspeechsegmenter)](https://hub.docker.com/r/inafoss/inaspeechsegmenter)
 
 inaSpeechSegmenter is a CNN-based audio segmentation toolkit.
 
@@ -132,10 +136,7 @@ Details on the speech detection submodule can be found bellow:
 
 ## CREDITS
 
-This work was realized in the framework of MeMAD project.
-https://memad.eu/
-MeMAD is an EU funded H2020 research project.
-It has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 780069.
+This work has been partially funded by the French National Research Agency (project GEM : Gender Equality Monitor : ANR-19-CE38-0012) and by European Union's Horizon 2020 research and innovation programme (project [MeMAD](https://memad.eu) : H2020 grant agreement No 780069).
 
 Some optimization within inaSpeechSegmenter code were realized by Cyril Lashkevich
 https://github.com/notorca
